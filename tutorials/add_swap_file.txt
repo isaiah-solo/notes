@@ -1,0 +1,10 @@
+Create Swap File
+sudo fallocate -l 4G /swapfile
+sudo chmod 600 /swapfile
+
+Enable Swap File
+sudo mkswap /swapfile
+sudo swapon /swapfile
+
+To Make Permanent
+echo -e '/swapfile   none    swap    sw    0   0\n' >> /etc/fstab
