@@ -1,0 +1,22 @@
+Docker
+
+Logs into account
+docker login
+
+List Docker containers
+docker ps
+
+Build Docker image with Dockerfile
+docker build -t .
+
+Lists Docker images
+docker images
+
+Removes Docker image
+docker rmi -f
+
+Pulls all remote repositories
+docker run
+
+Pulls remote repository
+docker pull

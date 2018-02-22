@@ -1,0 +1,9 @@
+Vagrant (In Progress)
+
+vagrant init
+vagrant up
+vagrant ssh
+vagrant destroy
+vagrant box remove
+vagrant reload --provision
+vagrant share

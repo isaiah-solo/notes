@@ -1,0 +1,16 @@
+Vim Shortcuts
+
+Open NERDTree
+ctrl-N
+
+Swap between NERDTree panes
+ctrl-[H, J, K, L]
+
+Choose file from NERDTree
+o
+
+Horizontal split NERDTree
+i
+
+Vertical split NERDTree
+s

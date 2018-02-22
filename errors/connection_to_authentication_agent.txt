@@ -1,0 +1,2 @@
+The SSH Agent may not be running. To fix, simply start the SSH Agent via
+eval `ssh-agent -s`

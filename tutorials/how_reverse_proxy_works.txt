@@ -1,0 +1,9 @@
+How Reverse Proxy Works
+
+Imagine A is User/Client, B is Proxy, and C is Website, and they are set up in a diagram like so:
+
+A -sees-> B -sees-> C
+
+A Forward Proxy is where the client A is trying to access and sees C, but does not know of the hidden proxy B.
+
+A Reverse Proxy is where the client A is trying to access C, but sees the proxy B and does not know the location of C and assumes seeing C

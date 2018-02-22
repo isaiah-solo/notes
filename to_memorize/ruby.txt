@@ -1,0 +1,149 @@
+Ruby
+
+puts
+gets.chomp
+
+Assigns if not already assigned
+||=
+
+Only checks a because a is the only one that needs to be true
+a = true
+b = true
+a || b
+
+Appends to array/string
+<array or string>.push(<new element>)
+<array or string> << <new element>
+
+Maps block to each element
+<object>.collect
+<object>.map
+
+Maps symbol Proc to object and applies
+<object>.map(&<proc>)
+
+Add call block from function by adding:
+yield(<args>)
+
+<int>.upto(<higher int>)
+<int>.downto(<lower int>)
+
+Checks if object has method
+<object>.respond_to?(<symbol as method name>)
+
+if
+elsif
+else
+end
+
+while
+unless
+until
+for <element> in <start>...<end>
+
+case
+when <string> then <action>
+
+<iteration> do
+  <stuff>
+end
+
+“#{<variable>}"
+
+<object>.each
+<object>.sort_by
+<object>.reverse
+<number>.times
+<number>.floor
+
+<string>.split
+<string>.upcase
+<string>.downcase
+
+<list>.sort
+<list>.push
+<list>.delete
+
+<object>.new
+<hash>.each_value
+<hash>.each_key
+<hash>.delete
+
+Symbol
+Integer
+Hash
+Proc
+Benchmark.realtime
+Time.now
+
+Lambdas check for exact number of args. Procs assigns nil to missing arguments
+Procs return from function immediately, lambdas continue function
+
+Create lambda
+<variable> = lambda <block>
+
+Create and use Proc
+<variable> = Proc.new <block>
+&<variable>
+
+Call Proc directly
+<proc>.call
+
+Check type of object
+<object>.is_a? <type>
+
+<symbol>.to_s
+<string>.to_i
+<string>.to_sym
+<string>.intern
+
+Class sample
+class TempClass
+
+  def TempClass.static_method
+
+  end
+
+  def initialize(param1, param2)
+    @param1 = param1
+    @param2 = param2
+  end
+
+  def method(arg1)
+    super(arg1)
+  end
+end
+
+Module sample
+module TempModule
+  def method; end
+end
+
+Modules are Classes that don’t have instances
+
+Access constant from module
+MyModule::CONSTANT
+
+Require module
+require ‘module’
+
+Include and not have to use “::” in class
+include Module
+
+Extend adds methods to class level (adds static methods)
+
+$global
+@local
+@@class
+CONSTANT
+
+make a getter/setter/both
+attr_reader <field as symbol>, <field>, ...
+attr_writer <field as symbol>
+attr_accessor <field as symbol>
+
+Inheritance
+class Child < Parent
+
+Call multiple lines on one line
+<first line>; <second line>;

@@ -1,0 +1,4 @@
+Git
+
+Remove untracked directories and files
+git clean -fd

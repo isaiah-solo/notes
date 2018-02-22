@@ -1,0 +1,39 @@
+Bash Shortcuts That Have Not Been Memorized
+
+Get Linux IP address
+hostname —ip-address
+
+Count file lines in path
+find -type f -print0 | xargs -0 cat | wc -l
+
+Check file system disk space usage
+df -h
+
+Check file space usage
+du -csh /*
+
+Check block devices
+lsblk
+
+Check open files by processes
+lsof
+
+Check startup processes
+chkconfig
+
+Check network connections
+netstat -nlptd
+
+Adding/Mounting fresh volume
+sudo mkfs -t ext4 
+sudo mkdir 
+sudo mount 
+
+Unmounting volume
+sudo mount
+
+Check DNS records
+dig <domain name>
+
+Generate SSH keys
+ssh-keygen -b 2048 -t rsa -f <filename>

@@ -1,0 +1,4 @@
+MySQL
+
+Substring on delimiter
+SUBSTRING_INDEX(,,)
